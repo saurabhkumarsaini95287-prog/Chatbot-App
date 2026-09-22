@@ -6,6 +6,8 @@ import cors from "cors";
 
 import chatRouter from "./app/routes/chatbot.route.js";
 
+const PORT =process.env.PORT ||5000 ||3000;
+
 const app = express();
 
 app.use(cors())
