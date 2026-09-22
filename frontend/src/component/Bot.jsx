@@ -19,7 +19,7 @@ const Bot = () => {
         if(!input.trim()) return;
 
         try {
-         const res=await axios.post("http://localhost:8000/api/chatbot/message",{
+         const res=await axios.post("https://chatbot-app-8ins.onrender.com/api/chatbot/message",{
                 text:input
             })
 
