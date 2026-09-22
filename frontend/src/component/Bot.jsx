@@ -116,7 +116,7 @@ const Bot = () => {
             <input
               type="text"
               className="flex-1 bg-transparent outline-none text-white placeholder-gray-400 px-2"
-              placeholder="Ask BotSpoof..."
+              placeholder="Ask Chatbot..."
              value={input}
              onChange={(e) => setInput(e.target.value)}
              onKeyDown={handleKeyPress}
